@@ -367,7 +367,7 @@ You'll see a lot of verbose output as the agents think, plan, use tools, and com
 For basic agents, printing `verbose=True` output (as done above) is sufficient for initial debugging. For production systems, you'll need:
 
 *   **Dedicated Logging:** Use Python's `logging` module to capture agent thoughts, tool inputs/outputs, and errors to files or a log management system.
-*   **Observability Platforms:** Tools like **LangSmith** (for LangChain/CrewAI)  or **OpenTelemetry**  can trace agent runs, visualize decision paths, and help pinpoint failures. These are invaluable once your agents get complex.
+*   **Observability Platforms:** Tools like [LangSmith](https://smith.langchain.com) (for LangChain/CrewAI) or [OpenTelemetry](https://opentelemetry.io) can trace agent runs, visualize decision paths, and help pinpoint failures. These are invaluable once your agents get complex.
 
 ## Real-World Use Cases That Actually Work Today
 
@@ -400,7 +400,7 @@ Building agents is an iterative process, fraught with common pitfalls. Here's wh
 
 4.  **Lack of Observability and Logging (The Black Box):**
     *   **Mistake:** Not knowing *why* your agent failed or what decision path it took. You just get an error or a suboptimal output.
-    *   **Avoid:** Instrument your agent heavily. Log every LLM call (input prompt, output response), every tool call (inputs, outputs, errors), and every step of the agent's internal thought process. Use observability platforms like LangSmith  or custom logging dashboards. This is non-negotiable for debugging and improvement.
+    *   **Avoid:** Instrument your agent heavily. Log every LLM call (input prompt, output response), every tool call (inputs, outputs, errors), and every step of the agent's internal thought process. Use observability platforms like [LangSmith](https://smith.langchain.com) or custom logging dashboards. This is non-negotiable for debugging and improvement.
 
 5.  **Ignoring Costs (The Exploding Bill):**
     *   **Mistake:** Running an agent with a large context window, frequent tool calls, and multiple reflection/retry loops without monitoring token usage. Costs can escalate rapidly.
