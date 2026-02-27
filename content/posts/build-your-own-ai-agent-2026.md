@@ -350,7 +350,7 @@ We'll outline a simple CrewAI example for a "market researcher" agent.
     # After the agent runs, you might manually save the result or have an agent do it.
     # For a real agent, you'd add a final "save_report" task.
     ```
-    *   **Important LLM Note:** The `llm=` parameter for `Agent` needs a properly configured LLM client (e.g., `ChatOpenAI` from `langchain_openai`). The placeholder `llm=os.environ.get("OPENAI_API_KEY", "your_openai_api_key_here")` is conceptually showing where the API key is used, but the actual object construction is more involved. For a quick start, CrewAI will often use a default `gpt-4o` if `OPENAI_API_KEY` is set. [AFFILIATE LINK for OpenAI API access]
+    *   **Important LLM Note:** The `llm=` parameter for `Agent` needs a properly configured LLM client (e.g., `ChatOpenAI` from `langchain_openai`). The placeholder `llm=os.environ.get("OPENAI_API_KEY", "your_openai_api_key_here")` is conceptually showing where the API key is used, but the actual object construction is more involved. For a quick start, CrewAI will often use a default `gpt-4o` if `OPENAI_API_KEY` is set. 
 
     Save and exit.
 
@@ -367,7 +367,7 @@ You'll see a lot of verbose output as the agents think, plan, use tools, and com
 For basic agents, printing `verbose=True` output (as done above) is sufficient for initial debugging. For production systems, you'll need:
 
 *   **Dedicated Logging:** Use Python's `logging` module to capture agent thoughts, tool inputs/outputs, and errors to files or a log management system.
-*   **Observability Platforms:** Tools like **LangSmith** (for LangChain/CrewAI) [AFFILIATE LINK] or **OpenTelemetry** [AFFILIATE LINK] can trace agent runs, visualize decision paths, and help pinpoint failures. These are invaluable once your agents get complex.
+*   **Observability Platforms:** Tools like **LangSmith** (for LangChain/CrewAI)  or **OpenTelemetry**  can trace agent runs, visualize decision paths, and help pinpoint failures. These are invaluable once your agents get complex.
 
 ## Real-World Use Cases That Actually Work Today
 
@@ -400,7 +400,7 @@ Building agents is an iterative process, fraught with common pitfalls. Here's wh
 
 4.  **Lack of Observability and Logging (The Black Box):**
     *   **Mistake:** Not knowing *why* your agent failed or what decision path it took. You just get an error or a suboptimal output.
-    *   **Avoid:** Instrument your agent heavily. Log every LLM call (input prompt, output response), every tool call (inputs, outputs, errors), and every step of the agent's internal thought process. Use observability platforms like LangSmith [AFFILIATE LINK] or custom logging dashboards. This is non-negotiable for debugging and improvement.
+    *   **Avoid:** Instrument your agent heavily. Log every LLM call (input prompt, output response), every tool call (inputs, outputs, errors), and every step of the agent's internal thought process. Use observability platforms like LangSmith  or custom logging dashboards. This is non-negotiable for debugging and improvement.
 
 5.  **Ignoring Costs (The Exploding Bill):**
     *   **Mistake:** Running an agent with a large context window, frequent tool calls, and multiple reflection/retry loops without monitoring token usage. Costs can escalate rapidly.
@@ -451,7 +451,7 @@ Your agent needs a place to run its code.
 *   **Cloud VPS (Linode, DigitalOcean, AWS EC2, Google Cloud, Azure):**
     *   **Small Instance (2-4 vCPU, 4-8GB RAM):** Sufficient for basic agents or a few concurrent runs. Expect **$10 - $50 per month**.
     *   **Larger Instances (for many concurrent agents or local LLMs):** Can range from **$100 - $500+ per month**, especially if you need GPU instances for local LLM inference.
-    *   [AFFILIATE LINK for DigitalOcean or Linode for VPS hosting]
+    *   [DigitalOcean](https://www.digitalocean.com) or [Linode](https://www.linode.com)
 
 *   **Serverless (AWS Lambda, Google Cloud Functions):** For event-driven, intermittent agents, serverless can be very cost-effective (pay-per-invocation), potentially **under $10 per month** for low usage.
 

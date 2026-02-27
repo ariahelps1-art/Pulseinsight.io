@@ -48,7 +48,7 @@ GitHub Copilot maintains its subscription-based model, with slightly diversified
 *   **Copilot Individual:** `$19/month` or `$199/year` if billed annually. This gives you unlimited usage across supported IDEs.
 *   **Copilot Business:** `$29/user/month`. Adds organization-level policy management, usage reporting, and improved security features, including advanced filtering for sensitive code patterns.
 *   **Copilot Enterprise (New in 2026):** `$49/user/month`. Includes all Business features, plus fine-tuning capabilities on private codebases (requires a minimum number of users, typically 50+), and enhanced compliance tooling for regulated industries.
-    *   [Explore GitHub Copilot pricing and features here.][AFFILIATE LINK]
+    *   [Explore GitHub Copilot pricing and features here.](https://github.com/features/copilot)
 
 ### Who It's Best For
 
@@ -90,7 +90,7 @@ Anthropic primarily offers Claude via API, with tiered access and specific model
     *   **Input Tokens (per 1M):** Varies significantly by model, with Opus (the most capable) being the most expensive. Expect a range from `$5` for Haiku to `$75` for Opus.
     *   **Output Tokens (per 1M):** Also varies, typically higher than input. Expect a range from `$15` for Haiku to `$200` for Opus.
     *   Claude Code models typically sit between Sonnet and Opus in terms of pricing, reflecting their specialized training.
-*   **Claude Pro Subscription:** `$30/month` for enhanced usage limits, priority access during peak times, and access to the latest Claude models via web interface [Explore Claude here.][AFFILIATE LINK]
+*   **Claude Pro Subscription:** `$30/month` for enhanced usage limits, priority access during peak times, and access to the latest Claude models via web interface [Explore Claude here.](https://claude.ai)
 *   **Claude Enterprise:** Custom pricing for large organizations requiring dedicated instances, fine-tuning, and robust security features.
 
 ### Who It's Best For
@@ -136,7 +136,7 @@ OpenAI's pricing continues its tiered approach, with GPT-5 at the premium end.
     *   **Input Tokens (per 1M):** Expect a range from `$15` (for less complex tasks) to `$100` (for high-reasoning, long-context tasks).
     *   **Output Tokens (per 1M):** Roughly double the input token price.
     *   Multi-modal inputs (image/video analysis) have additional pricing components based on resolution and content complexity.
-    *   [Check out OpenAI's offerings and pricing.][AFFILIATE LINK]
+    *   [Check out OpenAI's offerings and pricing.](https://openai.com/pricing)
 
 ### Who It's Best For
 
@@ -179,7 +179,7 @@ Gemini's pricing is primarily API-based, with premium tiers bundled into broader
     *   **Output Tokens (per 1M):** Typically higher than input, ranging from `$24` for Nano to `$270` for Ultra.
     *   Multi-modal inputs (images, video) incur additional charges based on resolution, duration, and processing complexity.
 *   **Google One AI Premium:** `$29.99/month`. Provides access to Gemini Advanced (powered by Gemini Ultra) for personal use, higher usage limits, and integration with Google Workspace apps.
-    *   [Learn more about Gemini and its capabilities.][AFFILIATE LINK]
+    *   [Learn more about Gemini and its capabilities.](https://ai.google.dev)
 *   **Google Cloud Enterprise:** Custom pricing for large-scale enterprise deployments, fine-tuning via Vertex AI, and dedicated support.
 
 ### Who It's Best For
@@ -222,7 +222,7 @@ Cursor offers a tiered subscription model, often incorporating the cost of under
 *   **Cursor Free:** Basic AI features, limited daily AI usage (e.g., 50 AI actions/day), and integration with your own API keys for higher usage.
 *   **Cursor Pro:** `$29/month` or `$299/year` if billed annually. Unlocks unlimited AI actions, faster AI responses, enhanced context window, and priority access to new features. Includes a generous allowance for API calls to GPT-4/Claude models.
 *   **Cursor Enterprise:** Custom pricing. Tailored for larger teams, offering centralized billing, SSO, enhanced security, and the ability to fine-tune Cursor on private codebases.
-    *   [Discover Cursor and its AI-first editor.][AFFILIATE LINK]
+    *   [Discover Cursor and its AI-first editor.](https://cursor.com)
 
 ### Who It's Best For
 
