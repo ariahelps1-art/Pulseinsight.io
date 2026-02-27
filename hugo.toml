@@ -40,15 +40,15 @@ Data-driven. No hype. No fluff.
 
 [[params.socialIcons]]
   name = "instagram"
-  url = "https://instagram.com/xpulseinsight"
+  url = "https://www.instagram.com/xpulseinsight/"
 
 [[params.socialIcons]]
   name = "youtube"
-  url = "https://youtube.com/@pulseinsight"
+  url = "https://www.youtube.com/@xpulseinsight"
 
 [[params.socialIcons]]
   name = "tiktok"
-  url = "https://tiktok.com/@xpulseinsight"
+  url = "https://www.tiktok.com/@xpulseinsight?lang=en"
 
 [[params.socialIcons]]
   name = "rss"
