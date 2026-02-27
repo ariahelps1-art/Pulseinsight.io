@@ -1,0 +1,140 @@
+/* PulseInsight Custom Styles */
+
+/* Hero section styling */
+.first-entry {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Home info section — the main hero */
+.home-info {
+    background: linear-gradient(135deg, #0a0a0a 0%, #0d1117 50%, #0a0a0a 100%);
+    border: 1px solid #1a2332;
+    border-radius: 12px;
+    padding: 3rem 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Subtle animated pulse line effect via gradient */
+.home-info::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 300%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #00d4ff, transparent);
+    animation: pulse-sweep 4s ease-in-out infinite;
+    opacity: 0.3;
+}
+
+@keyframes pulse-sweep {
+    0% { transform: translateX(-33%); }
+    100% { transform: translateX(33%); }
+}
+
+/* Hero title */
+.home-info .entry-hint-parent {
+    font-size: 1.1rem;
+    color: #00d4ff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation links in hero content */
+.home-info .entry-content a {
+    color: #00d4ff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.home-info .entry-content a:hover {
+    color: #4de8ff;
+    text-decoration: underline;
+}
+
+/* Post cards */
+.post-entry {
+    border: 1px solid #1a2332;
+    border-radius: 8px;
+    transition: border-color 0.3s, transform 0.2s;
+    background: linear-gradient(180deg, rgba(13,17,23,0.5) 0%, transparent 100%);
+}
+
+.post-entry:hover {
+    border-color: #00d4ff;
+    transform: translateY(-2px);
+}
+
+/* Category badges */
+.post-tags a {
+    background: rgba(0, 212, 255, 0.1);
+    color: #00d4ff;
+    border: 1px solid rgba(0, 212, 255, 0.2);
+    border-radius: 4px;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    transition: background 0.2s;
+}
+
+.post-tags a:hover {
+    background: rgba(0, 212, 255, 0.2);
+}
+
+/* Footer accent */
+.footer a {
+    color: #00d4ff;
+}
+
+/* Accent color for dark mode */
+:root {
+    --primary: #00d4ff;
+}
+
+[data-theme="dark"] {
+    --primary: #00d4ff;
+}
+
+/* Social icons in footer area */
+.social-icons a {
+    color: #888;
+    transition: color 0.2s;
+}
+
+.social-icons a:hover {
+    color: #00d4ff;
+}
+
+/* Reading time & meta info */
+.post-meta {
+    color: #888;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Code blocks match theme */
+.highlight pre {
+    border: 1px solid #1a2332;
+    border-radius: 8px;
+}
+
+/* Table of contents styling */
+.toc {
+    border: 1px solid #1a2332;
+    border-radius: 8px;
+    background: rgba(13, 17, 23, 0.5);
+}
+
+/* Blockquotes */
+blockquote {
+    border-left: 3px solid #00d4ff;
+    background: rgba(0, 212, 255, 0.05);
+    border-radius: 0 8px 8px 0;
+}

@@ -25,12 +25,34 @@ paginate = 10
   showtoc = true
 
   [params.homeInfoParams]
-    Title = "PulseInsight"
-    Content = "Practical guides on AI tools, autonomous agents, and market trends. Built by practitioners, not spectators."
+    Title = "AI is reshaping markets. We break it down."
+    Content = """📊 In-depth analysis on AI tools, market trends, and the companies building the future.
+Data-driven. No hype. No fluff.
+
+[Explore AI Tools →](/categories/ai-tools/) &nbsp; | &nbsp; [Market Analysis →](/categories/markets/) &nbsp; | &nbsp; [Build Agents →](/categories/agents/)"""
+
+  [params.profileMode]
+    enabled = false
 
 
 [params.assets]
   favicon = "/favicon.ico"
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/xpulseinsight"
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://youtube.com/@pulseinsight"
+
+[[params.socialIcons]]
+  name = "tiktok"
+  url = "https://tiktok.com/@pulseinsight"
+
+[[params.socialIcons]]
+  name = "rss"
+  url = "/index.xml"
 
 [params.cover]
   hidden = false
