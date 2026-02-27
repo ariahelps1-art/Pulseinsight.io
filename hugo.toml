@@ -15,7 +15,7 @@ paginate = 10
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowWordCount = false
-  ShowRssButtonInSectionTermList = true
+  ShowRssButtonInSectionTermList = false
   UseHugoToc = true
   disableSpecial1stPost = false
   disableScrollToTop = false
@@ -28,9 +28,6 @@ paginate = 10
     Title = "PulseInsight"
     Content = "Practical guides on AI tools, autonomous agents, and market trends. Built by practitioners, not spectators."
 
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
 
 [params.assets]
   favicon = "/favicon.ico"
