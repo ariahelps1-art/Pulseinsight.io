@@ -1,0 +1,20 @@
+# Hugo build output
+public/
+resources/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / credentials
+*.env
+*.key
+*.pem
+*.secret
+credentials/
+.credentials/
+
+# Editor files
+*.swp
+*.swo
+*~
