@@ -4,15 +4,28 @@ layout: "single"
 url: "/about/"
 summary: "About PulseInsight"
 ShowToc: false
+hidemeta: true
 ---
 
-PulseInsight covers AI tools, autonomous agents, and market trends with a practitioner's lens. No hype, no fluff — just hands-on guides and honest analysis from people who build with these tools daily.
+## Who We Are
 
-We believe the best insights come from doing, not theorizing. Every tutorial, review, and analysis on this site is grounded in real-world experience.
+PulseInsight is an independent publication covering the intersection of artificial intelligence and markets. We deliver data-driven analysis, honest tool reviews, and practical guides — built by practitioners, not spectators.
 
-**What we cover:**
-- **AI Tools** — Honest reviews and comparisons of the tools reshaping how we work
-- **Agents** — Practical guides to building and running autonomous AI agents
-- **Markets** — Analysis of trends at the intersection of AI and the economy
+We believe the AI revolution is the most significant economic shift since the internet. Our job is to cut through the noise and help you understand what matters: which tools actually work, where the money is flowing, and what comes next.
 
-Have a question or topic suggestion? Reach out at [contact@pulseinsight.io](mailto:contact@pulseinsight.io).
+## What We Cover
+
+- **AI Tools** — In-depth reviews and head-to-head comparisons of the platforms reshaping how businesses operate
+- **Markets** — Analysis of how AI is transforming capital allocation, disrupting industries, and creating new opportunities
+- **Agents** — Practical, hands-on guides to building and deploying autonomous AI systems
+
+## Our Standards
+
+Every article is thoroughly researched and grounded in real-world usage. We don't publish sponsored content disguised as reviews. When we include affiliate links, we [disclose them clearly](/disclosure/). Our editorial opinions are never influenced by affiliate relationships.
+
+## Connect With Us
+
+- **Instagram:** [@xpulseinsight](https://www.instagram.com/xpulseinsight/)
+- **YouTube:** [@xpulseinsight](https://www.youtube.com/@xpulseinsight)
+- **TikTok:** [@xpulseinsight](https://www.tiktok.com/@xpulseinsight?lang=en)
+- **Email:** [contact@pulseinsight.io](mailto:contact@pulseinsight.io)

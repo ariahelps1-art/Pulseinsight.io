@@ -98,5 +98,23 @@ Data-driven. No hype. No fluff.
   url = "/search/"
   weight = 40
 
+[[menu.footer]]
+  identifier = "privacy"
+  name = "Privacy Policy"
+  url = "/privacy/"
+  weight = 10
+
+[[menu.footer]]
+  identifier = "terms"
+  name = "Terms"
+  url = "/terms/"
+  weight = 20
+
+[[menu.footer]]
+  identifier = "disclosure"
+  name = "Affiliate Disclosure"
+  url = "/disclosure/"
+  weight = 30
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
