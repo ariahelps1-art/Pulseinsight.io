@@ -116,5 +116,13 @@ Data-driven. No hype. No fluff.
   url = "/disclosure/"
   weight = 30
 
+# Sitemap: exclude thin taxonomy pages from wasting crawl budget
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML"]
