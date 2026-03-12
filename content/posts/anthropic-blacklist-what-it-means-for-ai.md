@@ -1,7 +1,7 @@
 ---
 title: "The AI Company That Said No to Weapons Just Got Blacklisted: Here's What It Means for the AI Industry"
 date: 2026-02-28
-draft: false
+draft: true
 categories: ["Markets"]
 tags: ["Anthropic", "OpenAI", "Pentagon", "AI Policy", "Defense", "Trump Administration"]
 description: "The Trump administration blacklisted Anthropic after the AI company refused to allow its technology for autonomous weapons and mass surveillance. Here's what it means for investors and the AI sector."

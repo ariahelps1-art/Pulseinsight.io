@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "The $650 Billion AI Bet: Big Tech's 2026 Infrastructure Spending Spree"
 slug: "650-billion-ai-bet-big-tech-2026"
 date: 2026-03-04T07:00:00-05:00
@@ -7,6 +8,7 @@ tags: ["AI", "Investing", "Big Tech", "Infrastructure", "Market Analysis", "NVID
 categories: ["Market Analysis"]
 summary: "Bridgewater estimates Big Tech will pour $650 billion into AI infrastructure this year. Here's where the money is going — and what it means for investors."
 ---
+draft: true
 
 The scale of capital flowing into Artificial Intelligence is hard to overstate. Just as the 2020s opened with unprecedented monetary easing, the middle of the decade is defined by a capital expenditure surge unlike anything in recent memory. This isn't just about software; it's about silicon, power, and physical infrastructure. According to a recent analysis by Bridgewater Associates, Big Tech companies are collectively poised to invest **$650 billion into AI infrastructure in 2026 alone.**
 

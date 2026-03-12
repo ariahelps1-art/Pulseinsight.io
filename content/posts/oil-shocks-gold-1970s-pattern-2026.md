@@ -5,7 +5,7 @@ author: "PulseInsight"
 categories: ["Markets"]
 tags: ["oil", "gold", "precious-metals", "Iran", "geopolitics", "market-analysis", "investing"]
 description: "When oil spikes because of military conflict in the Middle East, gold tends to follow. It happened in 1973. It happened in 1979. The same chain is forming right now."
-draft: false
+draft: true
 ShowToc: true
 ---
 
